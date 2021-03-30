@@ -51,7 +51,9 @@ p {
     background-image: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     padding: 50px 20px;
     height: 500px;
-    background-attachment: fixed;
+    /* note: background attachment getrs disabled on mobile due to performance */
 }
+
